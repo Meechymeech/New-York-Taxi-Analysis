@@ -5,10 +5,12 @@ This project is a guided exploratory data analysis (EDA) of New York City Taxi T
 ---
 
 ## Problem Statement
-The objective of this project is to analyze taxi trip data from New York City to explore:
-- The distribution of trip fares (`total_amount`)
-- Data quality issues (e.g., missing values, negative fares, extreme outliers)
-- Relationships between fare amounts and other features like trip distance, passenger count, and pickup/drop-off locations.
+
+The aim of this analysis is to:
+- Explore the distribution of taxi fares (`total_amount`).
+- Identify anomalies such as negative fares and outliers.
+- Investigate patterns related to passenger counts, trip distances, and payment types.
+- Clean the dataset for future predictive modeling.
 
 ---
 
@@ -48,6 +50,7 @@ The dataset used is the **Yellow Taxi Trip Data - January 2025** available in `.
 ---
 
 ## Tools Used
+- **Jupyter Notebook** (via Anaconda)
 - Python 3.x
 - Pandas
 - Matplotlib
